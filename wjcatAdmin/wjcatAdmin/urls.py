@@ -3,9 +3,10 @@
 功能：后台接口url配置
 """
 from django.contrib import admin
-from django.urls import path
-from django.conf.urls import url
-from myAdmin import designView,answerView
+from django.urls import path as url
+from myAdmin import  designView
+from  myAdmin import answerView
+
 from django.views.generic import TemplateView
 from django.conf.urls.static import static
 from django.conf import settings

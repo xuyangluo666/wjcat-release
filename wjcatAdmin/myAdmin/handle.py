@@ -1,3 +1,4 @@
+import data
 import xlwt
 import json
 
@@ -59,6 +60,6 @@ def answerText2Excel(data):
 
 if __name__=="__main__":
     pass
-    # data=json.loads(data)
-    # analysisExportExcel(data['detail'])
+    data=json.loads(data)
+    analysisExportExcel(data['detail'])
 
